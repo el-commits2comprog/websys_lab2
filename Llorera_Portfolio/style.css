@@ -13,10 +13,10 @@ body {
 }
 
 .navigation {
-    background: rgba(255, 255, 255, 0.95);
+    background-color: FFFFFF;
     padding: 15px 30px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: sticky;
@@ -24,7 +24,12 @@ body {
     z-index: 100;
 }
 
+.logo {
+    width: 50px;
+}
+
 .nav-links {
+    font-size: 15px;
     list-style: none;
     display: flex;
     gap: 30px;
@@ -39,29 +44,50 @@ body {
 }
 
 .nav-links a:hover {
-    color: #764ba2;
+    color: #9b37ff;
+}
+
+.nav-links a.active {
+    border-bottom: 2px solid #9b37ff
 }
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    background-color: #d9b9f9;
+    margin: 80px;
+    background-color: FFFFFF;
 }
 
 .content h1 {
     margin-left: 10px;
-    font-size: 30px;
-    color: black;
+    font-size: 50px;
+    color: #272727;
+}
+
+.content h2 {
+    margin-left: 10px;
+    font-size: 80px;
+    color: #272727;
 }
 
 .content p {
     margin-left: 10px;
-    font-size: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
     color: #000000;
 }
 
-.cat {
-    display: block;
-    margin: 10px auto;
+.button1 {
+    margin-top: 30px;
+    border-radius: 80px;
+    border-color:#935ccb;
+    background-color: #ffffff;
+    color: #9b37ff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
