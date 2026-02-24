@@ -375,7 +375,7 @@ body {
 .content4 h1 {
     margin-left: 100px;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .blog-posts {
@@ -438,14 +438,14 @@ body {
 
 .box h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     margin: 10px 0 5px 0;
     padding-bottom: 8px;
     border-bottom: 2px solid #99979c;
 }
 
 .box h2 {
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .box p {
@@ -697,10 +697,11 @@ footer p {
 .tools-i-use {
     display: block;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .tools-i-use img {
-    width: 300px;
+    width: 200px;
     height: auto;
     cursor: pointer;
 }
@@ -751,4 +752,55 @@ footer p {
     margin: 10px 0 5px 0;
     padding-bottom: 10px;
     border-top: 2px solid #99979c;
+}
+
+/*BLOG*/
+
+.blog-container {
+    display: grid;
+    gap: 40px;
+    place-items: center;   
+    margin-bottom: 500px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.blog-content {
+    overflow: hidden;
+    display: flex;
+    width: 60%;
+    height: 350px;
+    border: 2px solid #86808b; 
+    background-color: #ffffff;
+}
+
+.blog-content img {
+    width: 450px;
+    height: 350px;  
+    object-fit: cover;
+}
+
+.blog-texts {
+    display: grid;
+    text-align: left;
+    margin-left: 40px;
+    width: 400px;
+}
+
+.blog-texts h1 {
+    text-align: center;
+    font-size: 25px;
+} 
+
+.blog-texts p {
+    font-size: 13px;
+    border-bottom: 1px solid #99979c;
+}
+
+.heart-icon {
+    width: 25px;
+    position: relative;
+    bottom: 10px;
+    left: 320px;
+    z-index: 10;
 }
