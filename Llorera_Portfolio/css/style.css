@@ -758,49 +758,64 @@ footer p {
 
 .blog-container {
     display: grid;
-    gap: 40px;
     place-items: center;   
-    margin-bottom: 500px;
+    margin-bottom: 600px;
     width: 100%;
     background-color: #FFFFFF;
 }
 
+.daily-blog {
+    place-items: center;
+    display: grid;
+    width: 100%;
+    height: 400px;
+    gap: 5px;
+    margin-bottom: 400px;
+}
+
 .blog-content {
+    overflow-x: auto;
     overflow: hidden;
     display: flex;
     width: 60%;
     height: 350px;
     border: 2px solid #86808b; 
     background-color: #ffffff;
+    scroll-snap-type: x mandatory;
 }
 
 .blog-content img {
-    width: 450px;
-    height: 350px;  
+    width: 400px;
+    height: 400px;
     object-fit: cover;
+    scroll-snap-align: start;
+    flex-shrink: 0;
 }
 
 .blog-texts {
-    display: grid;
-    text-align: left;
-    margin-left: 40px;
-    width: 400px;
+    width: 100%;
+    overflow-y: auto;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
-.blog-texts h1 {
-    text-align: center;
+.blog-texts h1{
     font-size: 25px;
-} 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 .blog-texts p {
     font-size: 13px;
-    border-bottom: 1px solid #99979c;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.heart-icon {
-    width: 25px;
-    position: relative;
-    bottom: 10px;
-    left: 320px;
-    z-index: 10;
+.interests-blog {
+    place-items: center;
+    display: grid;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    gap: 5px;
+    margin-bottom: 100px;
 }
