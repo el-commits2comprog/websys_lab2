@@ -656,3 +656,99 @@ footer p {
     font-size: 15px;
     margin-bottom: 50px;
 }
+
+/*PORTFOLIO PAGE*/
+
+.portfolio-container {
+    margin-bottom: 50px;
+    display: grid;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.portfolio-container h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.portfolio-content {
+    align-items: center;
+    margin: 0 100px;
+}
+
+.portfolio-content p {
+    align-items: center;
+    text-align: justify;
+    margin: 10px 0 5px 0;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #99979c;
+}
+
+.portfolio-container3 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.tools-i-use {
+    display: block;
+    align-items: center;
+}
+
+.tools-i-use img {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.projects img {
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.improving {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 700px; 
+    margin: 0 auto; 
+}
+
+.improving p {    
+    border-radius: 20px;     
+    padding: 15px 20px;       
+    background-color: #EFDAEF;
+    font-size: 16px;
+}
+
+.message {
+    align-items: center;
+    margin: 0 100px;
+    margin-top: 50px;
+}
+
+.message p {
+    align-items: center;
+    text-align: justify;
+    margin: 10px 0 5px 0;
+    padding-bottom: 10px;
+    border-top: 2px solid #99979c;
+}
