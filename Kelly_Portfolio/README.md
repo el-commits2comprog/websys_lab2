@@ -8,8 +8,21 @@ This repository serves as a requirement in fulfillment of our course subject **W
 
 | Student | Portfolio | Description |
 |---------|-----------|-------------|
-|**Lovely Joy Kelly**| `Kelly_Portfolio/` | A personal portfolio and daily blog — *love, ely* |
+| **Lovely Joy Kelly** | `Kelly_Portfolio/` | A personal portfolio and daily blog — *love, ely* |
 | **Joyce Llorera** | `Llorera_Portfolio/` | A personal portfolio site |
+
+---
+
+## Screenshots
+
+### Kelly Portfolio — *love, ely*
+
+![Home Page](Kelly_Portfolio/assets/homepage.png)
+![Blog Page](Kelly_Portfolio/assets/blogpage.png)
+![More About Lovely](Kelly_Portfolio/assets/morepage.png)
+![Article View](Kelly_Portfolio/assets/articlepage.png)
+
+> 💡 *Replace the filenames above with whichever screenshots best represent each page.*
 
 ---
 
@@ -18,6 +31,7 @@ This repository serves as a requirement in fulfillment of our course subject **W
 ```
 websys_lab2/
 ├── Kelly_Portfolio/
+│   ├── assets/
 │   ├── css/
 │   ├── imgs/
 │   ├── js/
@@ -41,7 +55,7 @@ websys_lab2/
 A personal portfolio and blog space by Lovely Joy Kelly, a 2nd year BS Information Technology student at Bicol University.
 
 ### Pages
-- **Home** — Introduction, timeline, achievements, interests, and the people I lives for
+- **Home** — Introduction, timeline, achievements, interests, and the people I live for
 - **Daily Blogs** — A collection of personal essays and reflections
 - **More About Lovely** — Deep dive into my favorite films, music, books, and the outdoors
 
@@ -79,8 +93,7 @@ A personal portfolio and blog space by Lovely Joy Kelly, a 2nd year BS Informati
 
 - Email: lovelykelly774@gmail.com
 - Instagram: [@ellovyyyy](https://www.instagram.com/ellovyyyy)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lovely-joy-kelly-007935356)
-
+- LinkedIn: [Lovely Joy Kelly](https://www.linkedin.com/in/lovely-joy-kelly-007935356)
 
 ---
 
