@@ -17,10 +17,10 @@ This repository serves as a requirement in fulfillment of our course subject **W
 
 ### Kelly Portfolio — *love, ely*
 
-![Home Page](Kelly_Portfolio/assets/homepage.png)
-![Blog Page](Kelly_Portfolio/assets/blogpage.png)
-![More About Lovely](Kelly_Portfolio/assets/morepage.png)
-![Article View](Kelly_Portfolio/assets/articlepage.png)
+![Home Page](assets/homepage.png)
+![Blog Page](assets/blogpage.png)
+![More About Lovely](assets/morepage.png)
+![Article View](assets/articlepage.png)
 
 > 💡 *Replace the filenames above with whichever screenshots best represent each page.*
 
