@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Blogs — Lovely</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="icon" type="image/png" href="../imgs/webfavicon.png">
+</head>
+<body>
+
+<nav>
+  <div class="nav-left">
+    <a href="../index.html" class="nav-logo"><img src="../imgs/webfavicon.png" alt="love, ely logo" class="nav-logo-img"> love, ely</a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="blog.html" class="active">Daily Blogs</a></li>
+      <li><a href="more.html">More About Lovely</a></li>
+    </ul>
+  </div>
+  <div class="nav-right">
+    <span class="nav-icon" title="Search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </span>
+    <span class="nav-icon" title="Save">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+    </span>
+    <span class="nav-icon" title="Share">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+    </span>
+    <a onclick="openContactModal()" class="nav-contact" style="cursor: pointer;">Contact</a>
+  </div>
+</nav>
+
+<div class="page">
+
+  <!-- PAGE HERO -->
+  <div class="page-hero fi">
+    <h1>Daily Blogs</h1>
+    <p style="margin-bottom:6px;">Stories, reflections, and moments worth sharing</p>
+    <p>A space for the things that are hard to say out loud but easy to write down.</p>
+  </div>
+
+  <!-- HERO -->
+  <div class="blog-hero fi"><img src="../imgs/blogcover1.jpg" alt="Blog Hero" class="blog-hero-img"></div>
+  <p class="blog-caption fi">Chasing Light, Life, and Everything In Between</p>
+
+  <!-- FEATURE COLUMNS -->
+  <div class="func-grid fi">
+    <div class="func-col">
+      <div class="featured-label">Moments Worth Keeping</div>
+      <p>Small observations, big feelings, and everything worth writing down before it fades.</p>
+    </div>
+    <div class="func-col">
+      <div class="featured-label">Life in Its Quiet Forms</div>
+      <p>Seeing beauty beyond the ordinary, the unexpected, and the mundane.</p>
+    </div>
+    <div class="func-col">
+      <div class="featured-label">Reads that Feel Like Coming Home</div>
+      <p>A warm corner of the internet where you're always welcome to stay a while.</p>
+    </div>
+  </div>
+
+  <hr class="divider">
+  <!-- ARTICLE CARDS -->
+  <div class="fi">
+    <div class="article-heading">Latest Articles</div>
+    <div class="article-grid">
+      <a href="articles/article-1.html" class="a-card">
+        <div class="a-card-img ac1"> <img src="../imgs/article1.jpg" alt="Article Image" class="af-img-src"></div>
+        <div class="a-card-body">
+          <div class="a-card-label">Self</div>
+          <div class="a-card-title">Some Seasons Break You. This One Built Me.</div>
+          <div class="a-card-meta">Feb 2026</div>
+        </div>
+      </a>
+      <a href="articles/article-2.html" class="a-card">
+        <div class="a-card-img ac2"> <img src="../imgs/article2.jpg" alt="Article Image" class="af-img-src"></div>
+        <div class="a-card-body">
+          <div class="a-card-label">Friendship</div>
+          <div class="a-card-title">All Is Well — and This Day Proved It</div>
+          <div class="a-card-meta">Feb 2026</div>
+        </div>
+      </a>
+      <a href="articles/article-3.html" class="a-card">
+        <div class="a-card-img ac3"><img src="../imgs/article3.jpg" alt="Article Image" class="af-img-src"></div>
+        <div class="a-card-body">
+          <div class="a-card-label">Change</div>
+          <div class="a-card-title">Familiar Fear, Familiar Strength</div>
+          <div class="a-card-meta">Feb 2026</div>
+        </div>
+      </a>
+    </div>
+    <div class="article-grid" style="margin-top:10px;">
+      <a href="articles/article-4.html" class="a-card">
+        <div class="a-card-img ac4"><img src="../imgs/article4.jpg" alt="Article Image" class="af-img-src"></div>
+        <div class="a-card-body">
+          <div class="a-card-label">Emotions</div>
+          <div class="a-card-title">I Can't Control the Tide and I'm Learning to Be Okay With That.</div>
+          <div class="a-card-meta">Feb 2026</div>
+        </div>
+      </a>
+      <a href="articles/article-5.html" class="a-card">
+        <div class="a-card-img ac5"><img src="../imgs/article5.jpg" alt="Article Image" class="af-img-src"></div>
+        <div class="a-card-body">
+          <div class="a-card-label">New Beginnings</div>
+          <div class="a-card-title">It Ends So It Can Begin Again</div>
+          <div class="a-card-meta">Feb 2026</div>
+        </div>
+      </a>
+      <a href="articles/article-6.html" class="a-card">
+        <div class="a-card-img ac6"><img src="../imgs/article6.jpg" alt="Article Image" class="af-img-src"></div>
+        <div class="a-card-body">
+          <div class="a-card-label">Gentle Reset</div>
+          <div class="a-card-title">Moving Forward When Everything Feels Too Heavy</div>
+          <div class="a-card-meta">Feb 2026</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- BIG QUOTE -->
+  <div class="big-quote fi">"Every entry is a little piece of someone figuring it out — welcome to mine."</div>
+
+   <hr class="divider">
+   
+<!-- ARTICLE FULL PREVIEW -->
+   <a href="articles/article-7.html" class="article-full-link">
+  <div class="article-full fi">
+    <div class="af-img"><img src="../imgs/meblog1.jpg" alt="Article Image" class="af-img-src"></div>
+    <h2>Writing Was Always My Safest Place</h2>
+    <p>I didn't start out thinking of myself as a writer. I was just someone who felt too much and needed somewhere to put it all. So I wrote. First in journals nobody would ever read, then in captions, then in longer pieces that surprised even me with how much they said. 
+      Somewhere along the way, the writing stopped being an outlet and started being a voice — mine, finally, in a form I could stand behind.</p>
+    <blockquote>"I write because some feelings are too big to just carry around quietly."</blockquote>
+    <p>This blog is a little bit of everything I am. It's the girl who stands in golden hour light and forgets to be anywhere else. It's the overthinker, the quiet observer, 
+      the one who notices things and can't help but write them down. </p>
+    <div class="af-footer">
+      <span>Last updated: Feb 2024 · Views: 421 · Shares: 18</span>
+      <div class="social-icons">
+        <a href="mailto:lovelykelly774@gmail.com" class="sicon" title="Email">✉</a>
+        <a href="https://www.instagram.com/ellovyyyy?igsh=bmVxYnhtOTJqOWp1&utm_source=qr" target="_blank" rel="noopener noreferrer" class="sicon" title="Instagram">@</a>
+        <a href="https://www.linkedin.com/in/lovely-joy-kelly-007935356" target="_blank" rel="noopener noreferrer" class="sicon" title="LinkedIn">in</a>
+      </div>
+    </div>
+  </div>
+</a>
+
+   <hr class="divider">
+  
+</div>
+
+
+
+<!-- Contact Modal -->
+<div id="contactModal">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeContactModal()">×</button>
+    <h2 class="modal-title">Get in Touch</h2>
+
+    <div class="modal-contact-item">
+      <a href="mailto:lovelykelly774@gmail.com" title="Email">
+        <span class="contact-icon">✉</span>
+        <span class="contact-label">lovelykelly774@gmail.com</span>
+      </a>
+    </div>
+
+    <div class="modal-contact-item">
+      <a href="https://www.instagram.com/ellovyyyy?igsh=bmVxYnhtOTJqOWp1&utm_source=qr" target="_blank" rel="noopener noreferrer" title="Instagram">
+        <span class="contact-icon">@</span>
+        <span class="contact-label">Instagram</span>
+      </a>
+    </div>
+
+    <div class="modal-contact-item">
+      <a href="https://www.linkedin.com/in/lovely-joy-kelly-007935356" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <span class="contact-icon">in</span>
+        <span class="contact-label">LinkedIn</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
