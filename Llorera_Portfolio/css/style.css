@@ -91,6 +91,7 @@ body {
 .button1 {
     display: inline-block;
     border-radius: 80px;
+    color: #935ccb;
     border: 2px solid #935ccb; 
     background-color: #ffffff;
     padding: 10px 20px;
@@ -192,6 +193,7 @@ body {
 
 .button2 {
     border-radius: 80px;
+    color: #935ccb;
     border: 2px solid #935ccb; 
     background-color: #ffffff;
     padding: 10px 20px;
